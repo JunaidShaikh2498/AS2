@@ -51,13 +51,13 @@ body{
     padding-top: 70px;
     background-color: rgb(12, 155, 160);
     border: 3px solid gray;
-    width: 300px;
-    height: 225px;
+    width: 275px;
+    height: 200px;
     border-radius: 50%;
     align-content: center;
     text-align:center;
     text-decoration: underline;
-    font-weight: bolder;
+    font-weight:900;
     font-style: italic;
 }
 .form{
