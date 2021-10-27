@@ -1,4 +1,12 @@
-
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+body{
+    border: 3px solid rgb(162, 255, 23);
+}
 body{
     background-image: url(image.html.jpg);
 }
@@ -18,9 +26,12 @@ body{
 .contain_menu2{
     display: flex;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .greeting{
+    margin-top: 20px;
+    margin-left: 10px;
     padding: 10px;
     border: 5px solid red;
     width:33%;
@@ -65,8 +76,11 @@ body{
 }
 .menu_items{
     margin: auto;
+    padding: 15px;
+    padding-left: 3px;
+    padding-right: 3px;
     width: 25%;
-    height: 50%;
+    height: 200px;
     background-color: rgb(32, 243, 250);
     color: rgb(93, 56, 197);
     border: 3px solid rgb(14, 124, 14);
