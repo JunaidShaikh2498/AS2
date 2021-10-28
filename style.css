@@ -15,17 +15,17 @@ body{
     display: flex;
     align-content: center;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 .contain_menu1{
     display: flex;
     margin-top: 20px;
     margin-bottom: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
 }
-.contain_menu2{
-    display: flex;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
+
 
 .greeting{
     margin-top: 20px;
@@ -73,7 +73,9 @@ body{
     background-color: white;
 }
 .menu_items{
-    margin: auto;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 35px;
     padding: 15px;
     padding-left: 3px;
     padding-right: 3px;
